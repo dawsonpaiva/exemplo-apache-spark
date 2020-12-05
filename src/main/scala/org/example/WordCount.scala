@@ -7,7 +7,7 @@ object WordCount {
 
   def main (arg: Array[String]): Unit = {
 
-    val sparkConf = new SparkConf().setAppName("Apache Spark: Read CSV").setMaster("local[2]")
+    val sparkConf = new SparkConf().setAppName("Apache Spark: Word Count").setMaster("local[2]")
     val spark = SparkSession
       .builder
       .config(sparkConf)
