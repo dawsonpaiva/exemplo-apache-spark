@@ -17,7 +17,7 @@ object ReadCSV {
     val df = spark.read.format("csv")
       .option("header", "true")
       .option("inferSchema", "true")
-      .load("C:\\Users\\dawso\\Documents\\cursos\\ufms\\sistemas-informacao\\8sem\\comp-dist\\spark\\BankChurners.csv")
+      .load("BankChurners.csv")
 
     df.show(10)
 
