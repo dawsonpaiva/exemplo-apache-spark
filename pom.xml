@@ -36,10 +36,10 @@
       <artifactId>spark-streaming_${scala.binary.version}</artifactId>
       <version>3.0.1</version>
     </dependency>
-    <dependency>
+    <!--dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-tags_${scala.binary.version}</artifactId>
-    </dependency>
+    </dependency-->
 
     <dependency>
       <groupId>org.twitter4j</groupId>
